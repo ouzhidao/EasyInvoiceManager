@@ -1,0 +1,18 @@
+# 基础依赖
+PyQt5>=5.15.0
+requests>=2.28.0
+openpyxl>=3.0.0
+pillow>=9.0.0
+pymupdf>=1.21.0
+python-dateutil>=2.8.0
+py7zr>=0.20.0
+rarfile>=4.0
+pywin32>=227
+
+# OCR依赖
+# 注意：如果PaddleOCR在您的机器上报错（如ConvertPirAttribute2RuntimeAttribute错误），
+# 请使用以下固定版本：
+# paddlepaddle==2.6.1
+# paddleocr==2.6.1
+paddleocr>=2.6.0
+paddlepaddle>=2.4.0
